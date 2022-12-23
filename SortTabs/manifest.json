@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Sort tab URLs",
+  "version": "1.0",
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "24": "icon24.png",
+      "32": "icon32.png",
+      "64": "icon64.png",
+      "96": "icon96.png"
+    }
+  },
+  "background": {
+    "scripts": ["popup.js"]
+  }
+}
