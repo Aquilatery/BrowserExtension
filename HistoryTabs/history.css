@@ -1,0 +1,38 @@
+#history-container {
+  width: 400px;
+  height: 500px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: auto;
+}
+
+#history-header {
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+#history-items {
+  padding: 10px;
+}
+
+#history-items div {
+  margin: 5px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#history-items div a {
+  color: #333;
+  text-decoration: none;
+}
+
+#history-items div:hover {
+  background-color: #f5f5f5;
+}
