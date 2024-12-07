@@ -1,0 +1,8 @@
+{
+    "themeLabel": "Theme",
+    "languageLabel": "Language",
+    "formatLabel": "Subtitle Format",
+    "extractButton": "Extract Subtitles",
+    "resultNotFound": "Subtitles not found.",
+    "resultError": "Error: "
+}
